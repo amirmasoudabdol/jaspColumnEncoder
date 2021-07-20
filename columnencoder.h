@@ -40,7 +40,7 @@ class ColumnEncoder
 
 private:						ColumnEncoder() { invalidateAll(); }
 public:
-								ColumnEncoder(std::string prefix, std::string postfix = "._Encoded");
+								ColumnEncoder(std::string prefix, std::string postfix = "_Encoded");
 								ColumnEncoder(const std::map<std::string, std::string> & decodeDifferently);
 								~ColumnEncoder();
 	static ColumnEncoder	*	columnEncoder();
