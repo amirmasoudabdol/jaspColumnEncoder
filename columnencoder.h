@@ -110,8 +110,8 @@ private:
 	colVec						_originalNames,
 								_encodedNames;
 
-	std::string					_encodePrefix  = "JaspColumn_.",
-								_encodePostfix = "._Encoded";
+	std::string					_encodePrefix  = "JaspColumn_",
+								_encodePostfix = "_Encoded";
 };
 
 #endif // COLUMNENCODER_H
